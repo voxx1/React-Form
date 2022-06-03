@@ -45,8 +45,7 @@ const DishesForm = () => {
         setIsLoading(false)
     };
 
-    let choosenType = ""
-
+    let choosenType
     if (selectedType === "pizza") {
         choosenType =
             <>
@@ -76,7 +75,7 @@ const DishesForm = () => {
 
 
     return (
-        <div className={classes.background} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+        <div className={classes.background}>
             <section className={classes.formBody}>
                 {isLoading ? <LoadingSpinner /> :
                     <>
@@ -100,6 +99,7 @@ const DishesForm = () => {
                                                 return (
                                                     <label key={radioType}>
                                                         <Field
+                                                            required
                                                             name="type"
                                                             component="input"
                                                             type="radio"
