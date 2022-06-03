@@ -1,4 +1,4 @@
-.auth {
+.formBody {
     width: 95%;
     max-width: 25rem;
     border-radius: 6px;
@@ -9,7 +9,7 @@
     color: white;
   }
   
-  .auth h1 {
+  .formBody h1 {
     text-align: center;
     color: #826F66;
     font-size: 29px;
@@ -44,7 +44,7 @@
     display: flex;
     accent-color: #3A3845;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
   }
   
   .actions {
@@ -71,3 +71,10 @@
     border-color: #826F66;
   }
   
+
+  @media (max-width: 400px) {
+    .background {
+       width: 395px;
+       margin: 0 auto;
+    }
+  }
