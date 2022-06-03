@@ -36,7 +36,7 @@ Just choose the food you like and amount of slices/spiceness. Then click button 
 - [ReactJS](https://reactjs.org/) - Web Framework
 - [React Final Form](https://final-form.org/react) - Form Tool
 
-## ✍️ Authors <a name = "versions"></a>
+## 📝 Versions <a name = "versions"></a>
 - Node - v14.15.1
 - npm - 6.14.8
 
